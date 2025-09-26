@@ -1,0 +1,39 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #351051;
+  background-image: radial-gradient(#9b52fc 0.7px, transparent 0.7px), radial-gradient(#9b52fc 0.7px, #351051 0.7px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #eaeaf2;
+}
+
+
+
+nav{
+  width: 300px;
+  height: 80px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+
+}
+
+nav p{
+  margin: 0;
+  color: #f3e8ff;
+  font-weight: 600;
+}
+
+/* Notes:
+ - backdrop-filter works only when the element has a semi-transparent background (alpha < 1) so the underlying pixels are visible to blur.
+ - Don't set `opacity` on the element or a parent, because opacity flattens the element and disables the backdrop effect.
+ - Some browsers require -webkit-backdrop-filter; it's still behind flags in some older browsers.
+*/
