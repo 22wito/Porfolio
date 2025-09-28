@@ -96,9 +96,9 @@ nav ul li a{
 }
 .circulo_abajo{
 
-  width: 8000px;
-  height: 8000px;
-  border-radius: 50%;
+  width: 5000px;
+  min-height: 1600px;
+  border-radius: 50% 50%;
   background: radial-gradient(#000000 25%, #1e0144 100%);
   box-shadow: 0 4px 1500px rgba(255, 154, 158, .8);
   border: 1px solid rgba(255, 255, 255, 0.3);
