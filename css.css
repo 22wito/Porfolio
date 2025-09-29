@@ -152,6 +152,7 @@ footer{
   align-items: center;
   color: #eaeaf2;
   z-index: 10;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 table {
@@ -239,4 +240,40 @@ button{
     align-items: center;
     gap: 10px;
   }
+  .SD{
+
+    font-size: 250%;
+  }
+  section{
+    width: 400px
+  }
+  .circulo_abajo{
+    min-height: 2000px;
+  }
+  
+}
+
+@media (max-width: 400px) {
+  nav {
+    width: 250px;
+    height:60px;
+    padding: 0 5px;
+    
+  }
+  nav ul{
+    gap: 5px;
+  }
+  section{
+    width: 300px
+  }
+ main h2{
+    font-size: 150%;
+  }
+  .circulo_abajo{
+    min-height: 2150px;
+  }
+  td, th{
+    font-size: 80%;
+  }
+  
 }
